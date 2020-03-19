@@ -42,9 +42,9 @@ int toLinear(int x, int y)
 void loop()
 {
   start_hue = -1 * millis() / RATE;
-  for (int x = 0; x < ROW; x++)
+  for (int y = 0; y < ROW; y++)
   {
-    for (int y = 0; y < ROW; y++)
+    for (int x = 0; x < ROW; x++)
     {
 
       int index = toLinear(x, y);
